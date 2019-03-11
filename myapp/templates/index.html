@@ -1,0 +1,37 @@
+{% load staticfiles %}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ken Baur Profile</title>
+	<link rel='stylesheet' href='{% static "style.css" %}' />
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+	<header class='name'>Ken(ny) Baur</header>
+	<div class='info_box'>
+		<p class='about'>About Myself</p>
+		<img class='profile' src='{% static "my_face.jpg" %}' alt='I'/>
+		<div class='about_me'>
+			<p> What to say. What to say. I enjoy Python and the challenge to learn it, 
+				it has become an everyday adventure. I hope to persue it professionally in the future and constantly
+				push myself to be better, in coding and life. 
+				Feel free to download my resume and email me with any questions about life, pizza or beer. </p>
+			<a href="https://twitter.com/KenBaur2" class="fa fa-twitter"></a>
+			<a href="https://www.linkedin.com/in/kenbaur3030/" class="fa fa-linkedin btn-linkedin"></a>
+			<a class="fa fa-file-pdf-o" aria-hidden="true" href='{% static "Current Resume.pdf" %}'>Resume</a>
+			<a class='link' href="/projects">Projects</a>
+		</div>
+	</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
